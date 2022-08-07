@@ -1,0 +1,16 @@
+#Instalación de la nueva Versión.
+####################################
+1.- npm install cypress --save-dev
+
+2.-Instalar NPX
+######################################
+https://www.npmjs.com/package/npx
+
+.-npm install -g npx
+
+3.-Iniciar la App
+######################################
+npx cypress open
+
+4.- Pagina de testing
+testingqarvn.com.es/

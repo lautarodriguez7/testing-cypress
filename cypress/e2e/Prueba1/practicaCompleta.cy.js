@@ -9,6 +9,8 @@ describe('Esta es la practica final de lo que aprendimos primero',() => {
         .type('lautarodriguez17@gmail.com').tab()
         .type(2364223348).tab()
         .type('Probando esto')
+        cy.get(':checkbox').should('be.disabled')
+
         cy.wait(2000);
 
         cy.get('#wsf-1-field-21').clear()
@@ -30,7 +32,8 @@ describe('Esta es la practica final de lo que aprendimos primero',() => {
         // .type('Desarrollo').tab()
     })
 
-    it('Segunda practica', () => { 
+    it.only('Segunda practica', () => { 
         cy.visit('https://demoqa.com/webtables')
+        cy.get('#searchBox').click()
     })
 })

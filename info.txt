@@ -14,3 +14,9 @@ npx cypress open
 
 4.- Pagina de testing
 testingqarvn.com.es/
+
+5.- require('cypress-plugin-tab');
+.tab()
+
+6.- require('cypress-xpath'); //npm install -D cypress-xpath
+ ej: cy.xpath("//INPUT[@id='wsf-1-field-48' and @name='field_48']").should('be.visible').type('elpepe')
